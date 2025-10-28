@@ -24,11 +24,12 @@ Then open a new terminal to let git's path take effect.
 ### 2. Configure Git
 
 ```powershell
-git config --global user.name "Richard Flamsholt"
+git config --global user.name "ricflams"
 git config --global user.email "richard@flamsholt.dk"
 git config --global credential.helper manager
 git config --global init.defaultBranch main
 git config --global pull.rebase false
+git config --global core.autocrlf true
 ```
 
 ### 3. Clone the repo
