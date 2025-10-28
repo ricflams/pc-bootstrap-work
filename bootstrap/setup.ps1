@@ -13,7 +13,11 @@ winget source update
 winget install --id SomePythonThings.WingetUIStore -e --silent --accept-package-agreements --accept-source-agreements
 $manifest = Join-Path $PSScriptRoot "..\manifests\winget-packages.json"
 if (Test-Path $manifest) {
-  winget import -i $manifest --accept-package-agreements --accept-source-agreements
+  try {
+    winget import -i $manifest --accept-package-agreements --accept-source-agreements
+  } catch {
+    Write-Warning "Winget import reported errors. Continuing..."
+  }
 }
 
 . "$PSScriptRoot\notes.ps1"
