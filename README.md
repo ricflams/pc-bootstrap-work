@@ -38,7 +38,7 @@ git config --global core.autocrlf true
 mkdir C:/Repos/ricflams
 cd C:/Repos/ricflams
 git clone https://github.com/ricflams/pc-bootstrap-work.git pc-bootstrap-work
-cd pc-bootstrap-work\bootstrap
+cd pc-bootstrap-work/bootstrap
 ```
 
 From here you can run:
