@@ -1,0 +1,10 @@
+build-essential
+curl
+zip
+unzip
+git
+zsh
+python3
+python3-pip
+ca-certificates
+software-properties-common

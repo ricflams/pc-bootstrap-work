@@ -1,0 +1,15 @@
+{
+  "name": "Dev Container (dotnet + node)",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.vscode-typescript-next",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "postCreateCommand": "bash -lc 'dotnet --info && node -v && npm -v'",
+  "remoteUser": "vscode"
+}

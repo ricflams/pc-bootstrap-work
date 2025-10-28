@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.json",
+  "CreationDate": "2025-10-28T10:00:00Z",
+  "Sources": [ { "Name": "winget", "Argument": "https://cdn.winget.microsoft.com/cache" } ],
+  "Packages": [
+    { "Id": "Microsoft.PowerShell", "Version": "latest" },
+    { "Id": "Git.Git", "Version": "latest" },
+    { "Id": "Microsoft.VisualStudioCode", "Version": "latest" },
+    { "Id": "Docker.DockerDesktop", "Version": "latest" },
+    { "Id": "7zip.7zip", "Version": "latest" },
+    { "Id": "JanDeDobbeleer.OhMyPosh", "Version": "latest" },
+    { "Id": "Google.Chrome", "Version": "latest" }
+  ]
+}
