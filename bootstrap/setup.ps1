@@ -6,6 +6,9 @@ if (-not $winget) {
   exit 1
 }
 
+# Interactively accept the Microsoft Store Terms
+winget source update msstore
+
 winget source reset --force
 winget source update
 
