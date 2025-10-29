@@ -26,7 +26,7 @@ Then open a new terminal to let git's path take effect.
 ```powershell
 git config --global user.name "ricflams"
 git config --global user.email "richard@flamsholt.dk"
-git config --global credential.helper manager
+git config --global --replace-all credential.helper manager
 git config --global init.defaultBranch main
 git config --global pull.rebase false
 git config --global core.autocrlf true
@@ -73,6 +73,14 @@ pc-bootstrap-work/
 ```
 
 ---
+
+## Testing the setup in a sandbox
+
+Enable Windows Sandbox:
+
+```
+dism /online /Enable-Feature /FeatureName:"Containers-DisposableClientVM" /All
+```
 
 ## 🧰 Helpful manual steps if needed
 
