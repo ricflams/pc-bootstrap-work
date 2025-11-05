@@ -1,8 +1,19 @@
-Terminal shells: Ubuntu, Powershell, VS Cmd, CMD
+# Terminal shells
 
-Enable Windows Sandbox
+* Default: Ubuntu
+* Ubuntu, Powershell, VS Cmd, CMD
 
-Enable Windows Subsystem for Linux
+# Windoes features
+
+* Enable Windows Sandbox
+* Enable Windows Subsystem for Linux
+
+# Explorer
+
+* [_] Hide extensions for known files types
+* Decrease space between items
+* Navigation pane > Expand to open folder
+* Apply to all folders
 
 # Taskbar:
 
@@ -16,3 +27,7 @@ Enable Windows Subsystem for Linux
 # Startup
 
 * Run dansk.ahk
+
+# Apps
+
+* .NET Framework 4.7 targeting pack: https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net47-developer-pack-offline-installer
