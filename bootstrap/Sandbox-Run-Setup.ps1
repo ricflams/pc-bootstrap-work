@@ -1,3 +1,11 @@
+Write-Host "Hello world from Windows Sandbox!" -ForegroundColor Cyan
+Write-Host ""
+Write-Host "Press Enter to close..." -ForegroundColor Yellow
+Read-Host
+
+
+
+
 # Sandbox-Run-Setup.ps1
 # Runs at sandbox startup
 

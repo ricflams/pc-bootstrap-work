@@ -76,10 +76,10 @@ pc-bootstrap-work/
 
 ## Testing the setup in a sandbox
 
-Enable Windows Sandbox:
+Enable Windows Sandbox in a Powershell terminal:
 
 ```
-dism /online /Enable-Feature /FeatureName:"Containers-DisposableClientVM" /All
+Enable-WindowsOptionalFeature -Online -FeatureName:Containers-DisposableClientVM -NoRestart:$True -All
 ```
 
 ## 🧰 Helpful manual steps if needed

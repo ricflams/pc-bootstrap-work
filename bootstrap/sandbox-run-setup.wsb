@@ -2,19 +2,26 @@
   <MappedFolders>
     <MappedFolder>
       <HostFolder>C:\Repos\ricflams\pc-bootstrap-work</HostFolder>
-      <SandboxFolder>C:\pc-bootstrap-work</SandboxFolder>
+      <SandboxFolder>C:\work</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>C:\pc-bootstrap-assets</HostFolder>
-      <SandboxFolder>C:\pc-bootstrap-assets</SandboxFolder>
+      <HostFolder>C:\SandboxShare</HostFolder>
+      <SandboxFolder>C:\SandboxShare</SandboxFolder>
       <ReadOnly>true</ReadOnly>
-    </MappedFolder>
+    </MappedFolder>	
   </MappedFolders>
 
   <LogonCommand>
-    <Command>powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "C:\pc-bootstrap-work\bootstrap\Sandbox-Run-Setup.ps1"</Command>
+    <Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit -command dir C:\work}"</Command>
   </LogonCommand>
+
+
+
+
+
+
+
 
   <MemoryInMB>4096</MemoryInMB>
   <ClipboardRedirection>Enable</ClipboardRedirection>
