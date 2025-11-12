@@ -14,6 +14,10 @@
 * Decrease space between items
 * Navigation pane > Expand to open folder
 * Apply to all folders
+*
+*    Set-ItemProperty "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" IconsOnly 0
+*    Stop-Process -Name explorer -Force
+
 
 # Taskbar:
 
