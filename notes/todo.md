@@ -40,3 +40,6 @@
 
 git config --global difftool.bc.cmd '"%LOCALAPPDATA%/Programs/Beyond Compare 5/bcomp.exe" "$LOCAL" "$REMOTE"'
 git config --global mergetool.bc.cmd '"%LOCALAPPDATA%/Programs/Beyond Compare 5/bcomp.exe" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"'
+git config --global diff.tool bc
+git config --global merge.tool bc
+
