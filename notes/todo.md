@@ -35,3 +35,8 @@
 # Apps
 
 * .NET Framework 4.7 targeting pack: https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net47-developer-pack-offline-installer
+
+# git
+
+git config --global difftool.bc.cmd '"%LOCALAPPDATA%/Programs/Beyond Compare 5/bcomp.exe" "$LOCAL" "$REMOTE"'
+git config --global mergetool.bc.cmd '"%LOCALAPPDATA%/Programs/Beyond Compare 5/bcomp.exe" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"'
